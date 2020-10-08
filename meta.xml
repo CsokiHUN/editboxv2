@@ -1,0 +1,12 @@
+<meta>
+    <script src="client.lua" type="client" cache="false" />
+    <script src="utils.lua" type="client" cache="false" />
+
+    <file src="assets/regular.ttf" />
+
+
+    <export function="createEditBox" type="client" />
+    <export function="destroyEditBox" type="client" />
+    <export function="getEditBox" type="client" />
+    <export function="initFont" type="client" />
+</meta>
